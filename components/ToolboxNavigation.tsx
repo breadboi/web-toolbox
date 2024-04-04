@@ -6,7 +6,6 @@ import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMe
 // Define the navigation items
 const navigationItems = [
   { name: "Home", href: "/" },
-  { name: "QR Generator", href: "/qr-generator" },
 ];
 
 export const ToolboxNavigation = () => {
