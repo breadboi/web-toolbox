@@ -7,7 +7,7 @@ export function LandingPageContent() {
         <div className="space-y-2 text-center">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Brett&apos;s Web Toolbox</h1>
           <p className="mx-auto max-w-2xl text-gray-500 md:text-xl/relaxed dark:text-gray-400">
-            A collection of simple tools I&apos;ve created to help you accomplish simple tasks, without needing to pay or create an account.
+            A collection of simple tools I made, all in one place. No accounts, no payments, just tools.
           </p>
         </div>
         <div className="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
