@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export function LandingPageContent() {
   return (
-    <div>
+    <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
       <div className="container py-12 lg:py-20 grid gap-6 px-4 md:px-6">
         <div className="space-y-2 text-center">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Brett&apos;s Web Toolbox</h1>
