@@ -1,11 +1,13 @@
 import QRCodeGenerator from "@/components/QRCodeGenerator";
 import { ToolboxNavigation } from "@/components/ToolboxNavigation";
-import { LandingPageContent } from "@/components/component/landing-page-content";
 
 export default function Home() {
   return (
     <>
-      <LandingPageContent />
+      <ToolboxNavigation />
+      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <QRCodeGenerator />
+      </main>
     </>
   );
 }
