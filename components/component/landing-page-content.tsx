@@ -24,6 +24,18 @@ export function LandingPageContent() {
             </Link>
           </div>
           <div className="flex flex-col gap-1">
+            <h3 className="text-lg font-bold">Movie Picker</h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              For when you and others can&apos;t decide on a movie to watch.
+            </p>
+            <Link
+              className="inline-flex h-8 items-center rounded-md border border-gray-200 bg-white px-4 text-xs font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-950 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+              href="/movie-picker"
+            >
+              View Tool
+            </Link>
+          </div>
+          <div className="flex flex-col gap-1">
             <h3 className="text-lg font-bold">Video Trimmer (Coming Soon)</h3>
             <p className="text-sm text-gray-500 dark:text-gray-400">
               Trim videos to a specific length, without needing to download any software.
