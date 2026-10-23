@@ -22,7 +22,7 @@ export async function GET(request: Request) {
   }
 
   const encodedSearchTerm = encodeURIComponent(searchTerm);
-  const result = await axios.get<MovieResponse>(`http://www.omdbapi.com/?s=${encodedSearchTerm}&apikey=${process.env.MOVIES_API_KEY}`);
+  const result = await axios.get<MovieResponse>(`https://www.omdbapi.com/?s=${encodedSearchTerm}&apikey=${process.env.MOVIES_API_KEY}`);
 
   if (result.data.Response === 'False') {
     return new Response(JSON.stringify({ error: result.data }), { status: 400 });
